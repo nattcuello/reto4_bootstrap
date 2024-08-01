@@ -1,0 +1,67 @@
+/* Ensure the HTML and body elements take full height */
+html, body {
+    height: 100%;
+    margin: 0%;
+   
+    border: 4px solid blue;
+   
+   
+}
+
+/* Flex container that spans the full width and height of the viewport */
+.contenedora_total {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 141, 141);
+  
+}
+
+
+
+
+/* Span element settings for flexible layout */
+span {
+    display: flex;
+    align-items: flex-start; 
+    background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214)); /* Fixed the gradient background */
+
+}
+
+/* Flex container with a height of 20% of its parent */
+.contenedor {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid blue;
+    background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214)); /* Fixed the gradient background */
+}
+
+.image img{
+    height: 16vh;
+}
+
+
+.contenedor h1{
+    font-size: 8vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

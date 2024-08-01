@@ -1,0 +1,168 @@
+.contenedora_central{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 141, 141);
+    box-sizing: border-box; 
+}
+
+.para_ti{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    
+    border-radius: 10px;
+    border-bottom: 4px solid blue;
+    width: 100%; 
+    }
+
+
+.top_10{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(150, 141, 141);
+    border-radius: 10px;
+    
+    width: 100%; 
+    
+    } 
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.footer {
+    background-color: rgb(51, 51, 51);
+    border: 4px solid blue;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: auto; /* Esto empuja el footer al final del contenedor */
+    width: 100%;
+    display: flex;
+}
+
+
+#contenedora_central{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 141, 141);
+    box-sizing: border-box; 
+}
+
+#footer{
+    background-color: rgb(150, 141, 141);
+    position: relative;
+
+}
+
+/*Imagenes Biblioteca*/
+
+
+:root {
+    --background:  #F8F8FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    background: var(--background);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    max-width: 80rem;
+}
+
+.card {
+    position: relative;
+    left: 0;
+    width: 6rem;
+    border-radius: 1.2rem;
+    height: 20rem;
+    overflow: hidden;
+    background: var(--background);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    flex: 0.25;
+}
+
+.card img {
+    position: relative;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.card:hover {
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+/* polish images center */
+.card:nth-child(1) img {
+    left: -6rem;
+}
+
+.card:nth-child(2) img {
+    left: -4rem;
+}
+
+.card:nth-child(3) img {
+    left: -10;
+}
+
+.card:nth-child(4) img {
+    left: -6rem;
+}
+
+.item-carousel{
+    width: auto !important;
+
+}
+#trading h1{
+    font-size: 1.2rem;
+   justify-content: center;
+    display: flex;
+    border-bottom: 2px solid blue;
+}
+
+#titulos_juegos h3{
+    font-size: 1rem;
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid blue;
+}
+#title{
+
+    background-color: white;
+    border-bottom: 28px solid grey;
+    border-top: 28px solid grey;
+}
+#title h3{
+    font-size: 1.2rem;
+}
+#centro{
+   background-color: white;
+   border-bottom: 0px solid rgb(255, 255, 255);
+}
+#center{
+    background-color: white;
+    border: 0px solid rgb(255, 255, 255);
+}
