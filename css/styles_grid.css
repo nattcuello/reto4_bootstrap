@@ -56,7 +56,7 @@ span {
     align-items: center;
     justify-content: center;
     background: linear-gradient(rgb(129, 130, 134), rgb(219, 213, 214)); /* Fixed the gradient background */
-    border: 4px solid orange;
+    border-bottom: 4px solid orange;
 }
 
 

@@ -178,14 +178,14 @@ body {
 }
 
 #contenedora_central_ofertas {
-    background-color: rgb(150, 141, 141);
+    background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214));
     width: 100%;
     max-height: 100%;
     display: flex;
     flex-direction: column;
     background: var(--background);
     box-sizing: border-box; /* Incluye el borde en el tamaño total */
-    border: 4px 4px 4px 4px solid orange;
+    border-top: 4px solid orange;
 }
 
 #container_ofertas {
