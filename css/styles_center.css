@@ -363,3 +363,37 @@ figcaption a {
 }
 
 /* Fin Ofertas */
+
+/* Inicio Juegos Free */
+#contenedora_central_juegos_free{
+    background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214));
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--background);
+    box-sizing: border-box; /* Incluye el borde en el tamaño total */
+    border-top: 4px solid rgb(255, 102, 0);
+}
+
+#container_juegos_free {
+    display: flex;
+    justify-content: center;
+    border: 4px 4px 0 4px solid rgb(255, 102, 0);
+}
+
+#border_line_juegos_free{
+    stroke: rgb(255, 102, 0);
+}
+
+#footer_juegos_free{
+    background-color: rgb(51, 51, 51);
+    border: 4px solid rgb(255, 102, 0);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-bottom: -1rem;
+    padding: 1rem 0 1rem 0;
+}
+/* Fin Juegos Free */
