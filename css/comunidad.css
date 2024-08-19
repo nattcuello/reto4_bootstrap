@@ -29,6 +29,7 @@
 #b{
   border-left: 2px solid yellow;
 }
-#contTotal{
-  background-color: gray !important;
+
+.row{
+  background-color: grey;
 }
