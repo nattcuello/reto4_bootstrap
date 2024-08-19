@@ -1,0 +1,10 @@
+#linea_proximamente{
+    stroke: red; 
+}
+#contenedor-proximamente{
+    padding-top: 7%;
+}
+#foother-proximamente{
+    border: 2px solid red;
+    
+}
