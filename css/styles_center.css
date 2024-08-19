@@ -360,7 +360,6 @@ figcaption a {
 
 /* Fin Ofertas */
 
-<<<<<<< HEAD
 /* video fAVORITO */
 #list-home-list{
     background-color: rgb(150, 141, 141);
@@ -371,7 +370,6 @@ figcaption a {
 #linea_favoritos{
     stroke: hsl(211, 100%, 50%);
 }
-=======
 /* Inicio Juegos Free */
 #contenedora_central_juegos_free{
     background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214));
@@ -441,4 +439,3 @@ figcaption a {
 }
 
 /* Fin Juegos Pro */
->>>>>>> refs/remotes/origin/main
