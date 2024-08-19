@@ -397,3 +397,82 @@ figcaption a {
     padding: 1rem 0 1rem 0;
 }
 /* Fin Juegos Free */
+
+
+/* Inicio Categoria */
+
+.border-container_categ {
+    margin-bottom: 0px;
+    position: relative;
+    padding: 4% 0 0 0;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.svg-border_categ {
+    margin-bottom: -2.4rem;
+    width: 100%;
+    height: 5rem; /* Ajusta la altura del contenedor SVG */
+    display: flex;
+    align-items: flex-end; /* Alinea la línea al final del contenedor */
+    
+}
+
+.border-line_categ {
+    fill: none; /* Sin relleno */
+    stroke: blue; /* Color de la línea */
+    stroke-width: 0.5; /* Ajusta el espesor de la línea */
+    stroke-linecap: round; /* Extremos redondeados */
+}
+
+
+
+
+.carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem; /* Ajusta según el espacio que necesites entre los carruseles */
+    background-color: rgb(150, 141, 141);; /* Color de fondo específico para el contenedor del carrusel, si es necesario */
+  }
+  
+  .background-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    z-index: 0; /* Asegura que la imagen esté detrás del carrusel */
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    opacity: 0.5; /* Ajusta la opacidad según sea necesario */
+  }
+  
+  .carousel-inner {
+    position: relative;
+    z-index: 1; /* Asegura que el carrusel esté sobre la imagen de fondo */
+  }
+
+  .background-image-container1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Asegura que la imagen esté detrás del carrusel */
+  }
+
+  .carousel-item {
+    height: 300px; /* Ajusta a la altura que desees */
+    overflow: hidden; /* Asegura que cualquier escalado no haga que la imagen se salga del contenedor */
+  }
+  
+  .carousel-item img {
+    transition: none; /* Asegura que las imágenes no se escalen durante la transición */
+  }
