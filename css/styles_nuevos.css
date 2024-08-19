@@ -1,0 +1,558 @@
+
+
+
+
+
+/* NUEVOS */
+
+#trading_nuevos h1{
+    font-size: 1.2rem;
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid rgb(218, 47, 132);
+}
+
+#contenedora_central_nuevos {
+    background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214));
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--background);
+    box-sizing: border-box; /* Incluye el borde en el tamaño total */
+    border-top: 4px solid rgb(218, 47, 132);
+}
+
+#container_nuevos {
+    display: flex;
+    justify-content: center;
+    border: 4px 4px 0 4px solid rgb(218, 47, 132);
+}
+
+.row {
+    padding: none;
+}
+
+#carrusel_nuevoss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(150, 141, 141);
+    margin-top: 1rem;
+    width: 100%; 
+}
+
+#todas_nuevoss {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+#flex-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#img_nuevos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    object-fit: cover; /* Ajuste de la imagen dentro del contenedor */
+}
+
+
+
+
+#card_nuevos {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+figcaption a {
+    font-size: 1.35rem;
+    color:  rgb(218, 47, 132);
+}
+
+#titulo_nuevos {
+    max-height: 0px;
+}
+
+#botones_nuevos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+#boton_link_poster {
+    margin: 10% 0 0 0;
+}
+
+#carrusel2 .swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll; /* Permite el desplazamiento horizontal */
+}
+
+#carrusel2 .swiper-slide {
+    flex: 0 0 auto; /* Evita que los elementos cambien de tamaño */
+}
+
+#titulo_juegos_nuevos {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#titulo_juegos_nuevos h1 {
+    background-color: rgb(182, 182, 182);
+    max-width: 20%;
+    padding: 0 4rem 0 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.3rem;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.753); /* Sombra */
+}
+
+.border-container_nuevos {
+    margin-bottom: 0px;
+    position: relative;
+    padding: 4% 0 0 0;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.svg-border_nuevos {
+    margin-bottom: -2.4rem;
+    width: 100%;
+    height: 5rem; /* Ajusta la altura del contenedor SVG */
+    display: flex;
+    align-items: flex-end; /* Alinea la línea al final del contenedor */
+    
+}
+
+.border-line_nuevos {
+    fill: none; /* Sin relleno */
+    stroke: rgb(218, 47, 132); /* Color de la línea */
+    stroke-width: 0.5; /* Ajusta el espesor de la línea */
+    stroke-linecap: round; /* Extremos redondeados */
+}
+
+#footer_nuevos {
+    background-color: rgb(51, 51, 51);
+    border: 4px solid rgb(218, 47, 132);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-bottom: -1rem;
+    padding: 1rem 0 1rem 0;
+}
+
+
+.col-12 {
+    background-color: rgb(150, 141, 141);
+    padding: 0%;
+}
+
+#trading_nuevos {
+    border-color: 4px 4px 4px 4px solid rgb(218, 47, 132);
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    max-width: 80rem;
+    padding-top: 2%;
+}
+
+.card_biblioteca {
+    position: relative;
+    left: 0;
+    width: 10rem;
+    border-radius: 1.2rem;
+    height: 15rem;
+    overflow: hidden;
+    background: var(--background);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    flex: 0.25;
+    border: 4px solid rgb(218, 47, 132);
+
+
+}
+
+.item-carousel {
+    width: 10rem;
+    /* Ajuste del ancho */
+}
+
+.trading-slide-img img {
+    height: fit-content;
+    width: fit-content;
+    /* Ajuste del ancho */
+}
+
+.card_biblioteca img {
+    position: relative;
+    height: 13rem;
+    object-fit: contain;
+    /* Ajuste del ancho */
+    transform: scale(1.1);
+    padding-bottom: 13%;
+}
+
+.card_biblioteca:hover {
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.card_biblioteca .hover-text {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Bold 700 Italic';
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.card_biblioteca:hover .hover-text {
+    display: block;
+}
+
+.card_biblioteca:nth-child(1) img {
+    left: -4rem;
+}
+
+.card_biblioteca:nth-child(2) img {
+    left: -2.5rem;
+}
+
+.card_biblioteca:nth-child(3) img {
+    left: -3rem;
+}
+
+.card_biblioteca:nth-child(4) img {
+    left: -8.5rem;
+}
+
+.card_biblioteca:nth-child(5) img {
+    left: -2.3rem;
+}
+
+.card_biblioteca:nth-child(6) img {
+    left: -2.3rem;
+}
+
+
+
+.card_biblioteca button {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+}
+
+.card_biblioteca:hover button {
+    display: block;
+    visibility: visible;
+}
+
+.background_nuevos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+#gallery {
+    display: flex;
+}
+
+#card_nuevos {
+    width: 10rem;
+    background-color: rgb(19, 12, 6);
+    transition: 1000ms all; /* Transición suave */
+    transform-origin: center left; /* Punto de origen para la transformación */
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5); /* Sombra */
+    outline: 1px solid var(--background); /* Borde */
+    overflow: hidden; /* Oculta el desbordamiento */
+    margin: 0px;
+}
+
+#card_nuevos img {
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente */
+    background-color: black;
+    height: 148px;
+}
+
+#card_nuevos:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    right: 40%;
+
+    box-shadow: 0 40px 12px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+@keyframes cardFade {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+#botones_nuevos {
+    visibility: hidden;
+    height: 0px;
+}
+
+#card_nuevos:hover #botones_nuevos {
+    animation: cardFade 0.3s ease-in-out; /* Aplica animación de desvanecimiento */
+    font-size: 0.4rem;
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.75rem;
+    padding-bottom: 4%;
+    visibility: visible;
+}
+
+#card_nuevos:hover #titulo_nuevos {
+    animation: cardFade 0.3s ease-in-out; /* Aplica animación de desvanecimiento */
+    font-size: 0.4rem;
+    position: absolute;
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(
+        to top, 
+        rgba(0, 0, 0, 0.9) 10%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    left: 0;
+    bottom: 0;
+    padding-left: 0.75rem;
+    padding-bottom: 0.65rem;
+    visibility: visible;
+}
+#card_nuevos:hover ~ .card {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateX(1.3rem); 
+}
+
+
+/* FIN NUEVOS */
+
+
+
+
+/* GENERAL*/
+
+
+
+.contenedora_central{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 141, 141);
+    box-sizing: border-box; 
+}
+
+.para_ti{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    
+    border-radius: 10px;
+    border-bottom: 4px solid blue;
+    width: 100%; 
+    }
+
+
+.top_10{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(150, 141, 141);
+    border-radius: 10px;
+    
+    width: 100%; 
+    
+    } 
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.footer {
+    background-color: rgb(51, 51, 51);
+    border: 4px solid blue;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: auto; /* Esto empuja el footer al final del contenedor */
+    width: 100%;
+    display: flex;
+}
+
+
+#contenedora_central{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 141, 141);
+    box-sizing: border-box; 
+}
+
+#footer{
+    background-color: rgb(150, 141, 141);
+    position: relative;
+
+}
+
+/*Imagenes Biblioteca*/
+
+
+:root {
+    --background:  #F8F8FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    background: var(--background);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    max-width: 80rem;
+}
+
+.card {
+    position: relative;
+    left: 0;
+    width: 6rem;
+    border-radius: 1.2rem;
+    height: 20rem;
+    overflow: hidden;
+    background: var(--background);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    flex: 0.25;
+}
+
+.card img {
+    position: relative;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.card:hover {
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+/* polish images center */
+.card:nth-child(1) img {
+    left: -6rem;
+}
+
+.card:nth-child(2) img {
+    left: -4rem;
+}
+
+.card:nth-child(3) img {
+    left: -10;
+}
+
+.card:nth-child(4) img {
+    left: -6rem;
+}
+
+.item-carousel{
+    width: auto !important;
+
+}
+#trading h1{
+    font-size: 1.2rem;
+   justify-content: center;
+    display: flex;
+    border-bottom: 2px solid blue;
+}
+
+#titulos_juegos h3{
+    font-size: 1rem;
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid blue;
+}
+#title{
+
+    background-color: white;
+    border-bottom: 28px solid grey;
+    border-top: 28px solid grey;
+}
+#title h3{
+    font-size: 1.2rem;
+}
+#centro{
+   background-color: white;
+   border-bottom: 0px solid rgb(255, 255, 255);
+}
+#center{
+    background-color: white;
+    border: 0px solid rgb(255, 255, 255);
+}
