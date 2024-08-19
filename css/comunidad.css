@@ -13,6 +13,7 @@
 }
 
 
+
 .footer{
   height: 200px;
   background-color: rgb(63, 61, 61);
@@ -28,6 +29,7 @@
 #b{
   border-left: 2px solid yellow;
 }
+
 .row{
   background-color: grey;
 }
