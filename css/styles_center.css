@@ -90,29 +90,25 @@ body {
 }
 
 .card {
-    position: relative;
-    left: 0;
-    width: 6rem;
+ 
+    
+    
     border-radius: 1.2rem;
-    height: 20rem;
+   
     overflow: hidden;
-    background: var(--background);
-    transition: 0.4s ease-in-out;
+   
+  
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
     flex: 0.25;
 }
 
 .card img {
-    position: relative;
-    height: 20rem;
-    object-fit: cover;
-}
-
-.card:hover {
-    flex: 2;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 1rem;
+    .card img {
+        width: 100px; /* Ajusta el ancho de la imagen */
+        height: 100px; /* Ajusta la altura de la imagen para que sea cuadrada */
+        object-fit: cover; /* Asegura que la imagen cubra el área cuadrada */
+        border-radius: 5px; /* Opcional: redondea ligeramente las esquinas */
+      }
 }
 
 /* polish images center */
@@ -166,7 +162,6 @@ body {
     background-color: white;
     border: 0px solid rgb(255, 255, 255);
 }
-
 
 /* ofertas */
 
@@ -334,6 +329,7 @@ figcaption a {
     
 }
 
+
 .border-line_oferta {
     fill: none; /* Sin relleno */
     stroke: rgb(219, 29, 4); /* Color de la línea */
@@ -364,6 +360,18 @@ figcaption a {
 
 /* Fin Ofertas */
 
+<<<<<<< HEAD
+/* video fAVORITO */
+#list-home-list{
+    background-color: rgb(150, 141, 141);
+}
+#foother-favoritos{
+    border:2px solid rgb(0, 123, 255) ;
+}
+#linea_favoritos{
+    stroke: hsl(211, 100%, 50%);
+}
+=======
 /* Inicio Juegos Free */
 #contenedora_central_juegos_free{
     background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214));
@@ -433,3 +441,4 @@ figcaption a {
 }
 
 /* Fin Juegos Pro */
+>>>>>>> refs/remotes/origin/main

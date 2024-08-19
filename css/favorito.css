@@ -1,0 +1,10 @@
+/* video fAVORITO */
+#list-home-list{
+    background-color: rgb(150, 141, 141);
+}
+#foother-favoritos{
+    border:2px solid rgb(0, 123, 255) ;
+}
+#linea_favoritos{
+    stroke: hsl(211, 100%, 50%);
+}
