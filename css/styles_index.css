@@ -160,6 +160,11 @@ figcaption a {
     padding: 1rem 0 1rem 0;
 }
 
+.hover-text{
+    display: flex;
+    justify-content: flex-start;
+    z-index: 800;
+}
 
 .col-12 {
     background-color: rgb(150, 141, 141);
@@ -178,6 +183,7 @@ figcaption a {
     justify-content: flex-start;
     margin-left: 1rem;
     margin-top: -1rem;
+    z-index: 999;
 }
 
 .card_biblioteca_index {
@@ -193,7 +199,7 @@ figcaption a {
     flex: 0.25;
     border: 4px solid rgb(243, 117, 0);
     left: -16rem;
-
+    margin-top: -1rem;
 }
 
 .item-carousel {
@@ -231,6 +237,8 @@ figcaption a {
     font-family: 'Bold 700 Italic';
     box-sizing: border-box;
     width: 100%;
+    z-index: 9000;
+
 }
 
 .card_biblioteca_index:hover .hover-text {
