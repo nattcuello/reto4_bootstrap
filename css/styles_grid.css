@@ -2,9 +2,6 @@
 html, body {
     height: 100%;
     margin: 0%;
-   
-   
-   
 }
 
 /* Flex container that spans the full width and height of the viewport */
@@ -14,21 +11,13 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: rgb(150, 141, 141);
-  
 }
-
-
-
-
-/* Span element settings for flexible layout */
 span {
     display: flex;
     align-items: flex-start; 
-    background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214)); /* Fixed the gradient background */
-
+    background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214)); 
 }
 
-/* Flex container with a height of 20% of its parent */
 .contenedor {
     width: 100%;
     height: 20%;
@@ -49,7 +38,18 @@ span {
 }
 
 
+
 #contenedor_ofertas {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(129, 130, 134), rgb(219, 213, 214)); /* Fixed the gradient background */
+    border-bottom: 4px solid rgb(219, 29, 4);
+}
+
+#contenedor_juegos_free{
     width: 100%;
     height: 20%;
     display: flex;
@@ -59,7 +59,37 @@ span {
     border-bottom: 4px solid orange;
 }
 
+#contenedor_juegos_pro{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(129, 130, 134), rgb(219, 213, 214)); /* Fixed the gradient background */
+    border-bottom: 4px solid orangered;
+}
 
+
+#contenedor_nuevos {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(129, 130, 134), rgb(219, 213, 214)); /* Fixed the gradient background */
+    border-bottom: 4px solid rgb(218, 47, 132);
+}
+
+
+#contenedor_mibiblioteca {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(129, 130, 134), rgb(219, 213, 214)); /* Fixed the gradient background */
+    border-bottom: 4px solid  rgb(47, 172, 218);
+}
 
 
 
