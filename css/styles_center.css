@@ -67,7 +67,7 @@
 
 
 :root {
-    --background:  #F8F8FF;
+    --background: linear-gradient(rgb(129, 129, 134), rgb(219, 213, 214));
 }
 
 * {
@@ -90,29 +90,25 @@ body {
 }
 
 .card {
-    position: relative;
-    left: 0;
-    width: 6rem;
+ 
+    
+    
     border-radius: 1.2rem;
-    height: 20rem;
+   
     overflow: hidden;
-    background: var(--background);
-    transition: 0.4s ease-in-out;
+   
+  
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
     flex: 0.25;
 }
 
 .card img {
-    position: relative;
-    height: 20rem;
-    object-fit: cover;
-}
-
-.card:hover {
-    flex: 2;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 1rem;
+    .card img {
+        width: 100px; /* Ajusta el ancho de la imagen */
+        height: 100px; /* Ajusta la altura de la imagen para que sea cuadrada */
+        object-fit: cover; /* Asegura que la imagen cubra el área cuadrada */
+        border-radius: 5px; /* Opcional: redondea ligeramente las esquinas */
+      }
 }
 
 /* polish images center */
@@ -166,7 +162,6 @@ body {
     background-color: white;
     border: 0px solid rgb(255, 255, 255);
 }
-
 
 /* ofertas */
 
@@ -334,6 +329,7 @@ figcaption a {
     
 }
 
+
 .border-line_oferta {
     fill: none; /* Sin relleno */
     stroke: rgb(219, 29, 4); /* Color de la línea */
@@ -364,6 +360,16 @@ figcaption a {
 
 /* Fin Ofertas */
 
+/* video fAVORITO */
+#list-home-list{
+    background-color: rgb(150, 141, 141);
+}
+#foother-favoritos{
+    border:2px solid rgb(0, 123, 255) ;
+}
+#linea_favoritos{
+    stroke: hsl(211, 100%, 50%);
+}
 /* Inicio Juegos Free */
 #contenedora_central_juegos_free{
     background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214));
@@ -398,6 +404,84 @@ figcaption a {
 }
 /* Fin Juegos Free */
 
+
+/* Inicio Categoria */
+
+.border-container_categ {
+    margin-bottom: 0px;
+    position: relative;
+    padding: 4% 0 0 0;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.svg-border_categ {
+    margin-bottom: -2.4rem;
+    width: 100%;
+    height: 5rem; /* Ajusta la altura del contenedor SVG */
+    display: flex;
+    align-items: flex-end; /* Alinea la línea al final del contenedor */
+    
+}
+
+.border-line_categ {
+    fill: none; /* Sin relleno */
+    stroke: blue; /* Color de la línea */
+    stroke-width: 0.5; /* Ajusta el espesor de la línea */
+    stroke-linecap: round; /* Extremos redondeados */
+}
+
+
+
+
+.carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem; /* Ajusta según el espacio que necesites entre los carruseles */
+    background-color: rgb(150, 141, 141);; /* Color de fondo específico para el contenedor del carrusel, si es necesario */
+  }
+  
+  .background-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    z-index: 0; /* Asegura que la imagen esté detrás del carrusel */
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    opacity: 0.5; /* Ajusta la opacidad según sea necesario */
+  }
+  
+  .carousel-inner {
+    position: relative;
+    z-index: 1; /* Asegura que el carrusel esté sobre la imagen de fondo */
+  }
+
+  .background-image-container1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Asegura que la imagen esté detrás del carrusel */
+  }
+
+  .carousel-item {
+    height: 300px; /* Ajusta a la altura que desees */
+    overflow: hidden; /* Asegura que cualquier escalado no haga que la imagen se salga del contenedor */
+  }
+  
+  .carousel-item img {
+    transition: none; /* Asegura que las imágenes no se escalen durante la transición */
+  }
 /* Inicio Juegos Pro */
 
 #contenedora_central_juegos_pro{

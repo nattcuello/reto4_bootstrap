@@ -1,0 +1,14 @@
+.contenedor-categ {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid blue;
+    background: linear-gradient(rgb(129, 129, 132), rgb(219, 213, 214)); /* Fixed the gradient background */
+}
+
+.carousel-item img{
+    width: 100vh;
+    height: 50vh;
+}

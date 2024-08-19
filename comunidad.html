@@ -2,143 +2,246 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameUp</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"/>
+    <link rel="stylesheet" href="css/comunidad.css">
+    <!-- Corregido el nombre del archivo -->
+    <link rel="stylesheet" href="css/styles_grid.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles_menu.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <link rel="stylesheet" href="css/styles_center.css" />
-    <link rel="stylesheet" href="css/styles_menu.css" />
-    <link rel="stylesheet" href="css/styles_grid.css" />
 </head>
 
 <body>
-    <div class="sidebar" id="mySidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html" onclick="loadContent('index.html')">Inicio</a>
-        <a href="categorias.html" onclick="loadContent('categorias.html')">Categoría</a>
-        <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
-        <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
-        <a href="populares.html" onclick="loadContent('populares.html')">Populares</a>
-        <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos Free</a>
-        <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos Pro</a>
-        <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
-        <a href="nuevos.html" onclick="loadContent('nuevos.html')">Nuevos</a>
-        <a href="proximamente.html" onclick="loadContent('proximamente.html')">Próximamente</a>
-        <a href="comunidad.html" onclick="loadContent('comunidad.html')">Comunidad</a>
-        <a href="acerca_de.html" onclick="loadContent('acerca_de.html')">Acerca de..</a>
-    </div>
-
-    <div id="main">
-        <header class="container-fluid d-flex justify-content-between align-items-center mb-4">
-            <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <div class="contenedora_total"> <!-- Contenedora general -->
+        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        <header class="contenedor">
             <div class="image">
-                <img src="images/logo-Sinfondo.png" alt="Logo" style="max-height: 50px;">
+                <img src="images/logo-Sinfondo.png" alt="Logo">
             </div>
             <h1>Game Up</h1>
+            <!-- Menu lateral -->
+            <nav id="mySidebar">
+                <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+                <a href="index.html" onclick="loadContent('index.html')">Inicio</a>
+                <a href="categorias.html" onclick="loadContent('categorias.html')">Categoría</a>
+                <a href="mibiblioteca.html" onclick="loadContent('mibiblioteca.html')">Mi Biblioteca</a>
+                <a href="favoritos.html" onclick="loadContent('favoritos.html')">Favoritos</a>
+                <a href="populares.html" onclick="loadContent('populares.html')">Populares</a>
+                <a href="juegos_free.html" onclick="loadContent('juegos_free.html')">Juegos Free</a>
+                <a href="juegos_pro.html" onclick="loadContent('juegos_pro.html')">Juegos Pro</a>
+                <a href="ofertas.html" onclick="loadContent('ofertas.html')">Ofertas</a>
+                <a href="nuevos.html" onclick="loadContent('nuevos.html')">Nuevos</a>
+                <a href="proximamente.html" onclick="loadContent('proximamente.html')">Próximamente</a>
+                <a href="comunidad.html" onclick="loadContent('comunidad.html')">Comunidad</a>
+                <a href="acerca_de.html" onclick="loadContent('acerca_de.html')">Acerca de</a>
+            </nav>
         </header>
 
-        <div class="container">
+        <div class="contenedor_principal">
             <div class="row">
-                <!-- Columna con id="a" -->
-                <div class="col-md-6" id="a">
-                    <div class="list-group">
-                        <h3>Amigos 👥</h3>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <img src="images/usuar/mujer (1).png" class="rounded-circle mr-3" style="width: 40px;" alt="Rachel">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Rachel</h5>
+                <!-- Columna "A" -->
+                <div class="col-md-6">
+                    <div class="p-3">
+                        <div class="list-group" id="centro_comunidad">
+                            <h3>Amigos 👥</h3>
+                            <div class="border-container"><!--linea naranja-->
+                                <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+                                    <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" />
+                                </svg>
                             </div>
-                            <p class="mb-1">Visto por última vez jugando <b>Battlefield 4</b> hace un momento.</p>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <img src="images/usuar/mujer (2).png" class="rounded-circle mr-3" style="width: 40px;" alt="Lindsay">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Lindsay</h5>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item-dark d-flex align-items-center">
+                                    <img src="images/usuar/mujer (1).png" class="rounded-circle me-3"
+                                        style="width: 40px;" alt="Rachel">
+                                    <div class="d-flex w-100 flex-column">
+                                        <h5 class="mb-1">Rachel</h5>
+                                        <p class="mb-1">Visto por última vez jugando <strong>Battlefield 4</strong> hace
+                                            un momento.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item-dark d-flex align-items-center">
+                                    <img src="images/usuar/mujer (2).png" class="rounded-circle me-3"
+                                        style="width: 40px;" alt="Lindsay">
+                                    <div class="d-flex w-100 flex-column">
+                                        <h5 class="mb-1">Lindsay</h5>
+                                        <p class="mb-1">Visto por última vez jugando <strong>Dark Souls</strong> hace 10
+                                            horas.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item-dark d-flex align-items-center">
+                                    <img src="images/usuar/hombre (1).png" class="rounded-circle me-3"
+                                        style="width: 40px;" alt="Matthew">
+                                    <div class="d-flex w-100 flex-column">
+                                        <h5 class="mb-1">Matthew</h5>
+                                        <p class="mb-1">Visto por última vez jugando <strong>Rocket League</strong>
+                                            ayer.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item-dark d-flex align-items-center">
+                                    <img src="images/usuar/hombre (2).png" class="rounded-circle me-3"
+                                        style="width: 40px;" alt="Jonny Hess">
+                                    <div class="d-flex w-100 flex-column">
+                                        <h5 class="mb-1">Jonny Hess</h5>
+                                        <p class="mb-1">Visto por última vez jugando <strong>The Crew</strong> hace 3
+                                            días.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item-dark d-flex align-items-center">
+                                    <img src="images/usuar/mujer.png" class="rounded-circle me-3" style="width: 40px;"
+                                        alt="Veronika Ossi">
+                                    <div class="d-flex w-100 flex-column">
+                                        <h5 class="mb-1">Veronika Ossi</h5>
+                                        <p class="mb-1">No ha observado nada recientemente</p>
+                                    </div>
+                                </a>
                             </div>
-                            <p class="mb-1">Visto por última vez jugando <b>Dark Souls</b> hace 10 horas.</p>
-                        </a>
-                        <!-- Agrega más elementos de lista aquí -->
-                    </div>
-                    <br>
-                    <h3>Solicitudes de Amistad</h3>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="images/cod.png" class="float-right" style="width: 50px;" alt="Evis Drei">
-                            <h5 class="card-title">Evis Drei</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Amigos de Veronika</h6>
-                            <p class="card-text">Elliot solicitó permiso para unirse a tu grupo.</p>
-                            <a href="#" class="btn btn-success">Aprobar</a>
-                            <a href="#" class="btn btn-danger">Declinar</a>
                         </div>
-                    </div>
-                    <br>
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="images/daniel.jpg" class="float-right" style="width: 50px;" alt="Jenny Hess">
-                            <h5 class="card-title">Jenny Hess</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Nuevo Miembro</h6>
-                            <p class="card-text">Jenny quiere agregarte al grupo <b>mejores amigos</b>.</p>
-                            <a href="#" class="btn btn-success">Aprobar</a>
-                            <a href="#" class="btn btn-danger">Declinar</a>
-                        </div>
+                        <br>
+                        <h3>Solicitudes de Amistad</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">
+                                        <table class="table" id="tabla_comunidad">
+                                            <thead>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <h5 class="card-title" id="columnas_tabla">Evis Drei</h5>
+                                                        <h6 class="card-text" id="nuevo">Amigos de Veronika</h6>
+                                                        <p id="card-text">Elliot solicitó permiso para unirse a tu
+                                                            grupo.</p>
+                                                    </td>
+                                                    <td>
+                                                        <img src="images/cod.png" class="mx-auto d-block img-fluid"
+                                                            alt="Evis Drei">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4">
+                                                        <button type="button"
+                                                            class="btn btn-outline-success">Aprobar</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-danger">Declinar</button>
+                                                    </td>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </th>
+                                    <th scope="col">
+                                        <table class="table" id="tabla_comunidad">
+                                            <thead>
+                                                <tr>
+
+                                                    <td colspan="2">
+                                                        <h5 class="card-title" id="columnas_tabla">Jenny Hess</h5>
+                                                        <h6 class="card-text" id="nuevo">Nuevo Miembro</h6>
+                                                        <p id="card-text">Jenny quiere agregarte al grupo de mejores
+                                                            amigos.</p>
+                                                    </td>
+                                                    <td>
+                                                        <img src="images/daniel.jpg"
+                                                            class="rounded mx-auto d-block img-fluid" alt="Evis Drei">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4">
+                                                        <button type="button"
+                                                            class="btn btn-outline-success">Aprobar</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-danger">Declinar</button>
+                                                    </td>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </th>
+                                </tr>
+                            </thead>
+                        </table>
                     </div>
                 </div>
 
-                <!-- Columna con id="b" -->
-                <div class="col-md-6" id="b">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Buscar usuarios...">
-                        <div class="input-group-append">
-                            <span class="input-group-text"><i class="bx bx-user"></i></span>
+                <!-- Columna "B" -->
+                <div class="col-md-6">
+                    <div class="p-3">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Buscar usuarios...">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="bx bx-user"></i></span>
+                            </div>
                         </div>
-                    </div>
-                    <br>
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <img src="images/elliot100.png" class="rounded-circle mr-3" style="width: 100px;" alt="Elliot Fu">
-                                <div>
-                                    <h5 class="card-title">Elliot Fu</h5>
-                                    <p class="card-text">Elliot Fu es un jugador de New York.</p>
-                                    <a href="#" class="btn btn-primary"><i class="bx bx-add-to-queue"></i> Añadir amigo</a>
+                        <div class="border-container"><!--linea naranja-->
+                            <svg class="svg-border" viewBox="0 0 100 10" preserveAspectRatio="none">
+                                <polyline points="0,5 40,5 45,0 55,0 60,5 100,5" class="border-line" />
+                            </svg>
+                        </div>
+
+                        <div class="container overflow-hidden text-center">
+                            <div class="row gx-5">
+                                <!-- Tarjeta 1 -->
+                                <div class="col">
+                                    <div class="card" id="card-busqueda">
+                                        <div class="card-body">  
+                                            <img src="images/elliot100.jpeg" class="img-fluid rounded-circle"
+                                            alt="Elliot Fu" id="imagen-busqueda">
+                                            <div class="d-flex align-items-center">
+                                              
+                                                <div class="ml-3">
+                                                    <h5 class="card-title">Elliot Fu</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted">Amigos de Veronika</h6>
+                                                    <p class="card-text">Elliot solicitó permiso para ver sus datos de
+                                                        contacto.</p>
+                                                    <div class="d-flex justify-content-start">
+                                                        <a href="#" class="btn btn-success mr-2">Aprobar</a>
+                                                        <a href="#" class="btn btn-danger">Rechazar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Tarjeta 2 -->
+                                <div class="col">
+                                    <div class="card" id="card-busqueda">
+                                        <div class="card-body">
+                                            <img src="images/mujer100.jpeg" class="img-fluid rounded-circle"
+                                            alt="Sofia Guebara" id="imagen-busqueda">
+                                            <div class="d-flex align-items-center">
+                                             
+                                                <div class="ml-3">
+                                                    <h5 class="card-title">Sofia Guebara</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted">Nuevo miembro</h6>
+                                                    <p class="card-text">Jenny quiere agregarte al grupo <b>de mejores
+                                                            amigos</b>.</p>
+                                                    <div class="d-flex justify-content-start">
+                                                        <a href="#" class="btn btn-success mr-2">Aprobar</a>
+                                                        <a href="#" class="btn btn-danger">Rechazar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <br>
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <img src="images/mujer100.png" class="rounded-circle mr-3" style="width: 100px;" alt="Sofia Guebara">
-                                <div>
-                                    <h5 class="card-title">Sofia Guebara</h5>
-                                    <p class="card-text">Sofia Guebara es una jugadora que vive en Argentina.</p>
-                                    <a href="#" class="btn btn-primary"><i class="bx bx-add-to-queue"></i> Añadir amigo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Nueva grilla añadida -->
-            <div class="container text-center mt-4">
-                <div class="row row-cols-2">
-                    <div class="col">Columna 1</div>
-                    <div class="col">Columna 2</div>
-                    <div class="col">Columna 3</div>
-                    <div class="col">Columna 4</div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <
+        <footer class="footer">
+            <p>2024 @Game Up Derechos reservados</p>
+        </footer>
+
+        <script src="Js/scrptsMenu.js"></script> <!-- Scripts del menú -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div>
+    </div>
+</body>
+
+</html>
