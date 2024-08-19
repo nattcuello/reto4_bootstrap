@@ -67,7 +67,7 @@
 
 
 :root {
-    --background:  #F8F8FF;
+    --background: linear-gradient(rgb(129, 129, 134), rgb(219, 213, 214));
 }
 
 * {
